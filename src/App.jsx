@@ -8,7 +8,7 @@ const reducer = (state, action) => {
     case 'resetValue':
       return { count: 0, showText: true }
     default:
-      return "This action doens't exist"
+      return "This action doesn't exist"
   }
 }
 
